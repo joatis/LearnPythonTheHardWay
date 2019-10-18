@@ -10,7 +10,7 @@ inch2cm = 2.54
 pounds2kg = 0.453592
 
 metric_height = height * inch2cm
-metric_weight = weight * pounds2kg
+metric_weight = round(weight * pounds2kg)
 
 print(f"Let's talk about {name}.")
 print(f"He's {height} inches tall.")
